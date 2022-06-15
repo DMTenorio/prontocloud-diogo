@@ -177,7 +177,7 @@ nav ul li {
 }
 }
 
-@media (max-width: 840px){
+@media (max-width: 859px){
     .menu, .corpo-texto{
         width: 90%;
     }
