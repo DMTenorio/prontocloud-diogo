@@ -116,12 +116,12 @@ ol li {
 
 ul li{
     background-color: #ccc;
-    padding-top: 10px;
     letter-spacing: 3px;
     margin: 5px;
-    line-height: 20px;
-    align-items: center;
+    line-height: 30px;
+    height: 30px;
 }
+
 
 nav ul li{
     background-color: #efefef;
@@ -135,7 +135,6 @@ nav ul li a{
     font-size: 1.4rem;
     margin: 15px;
     color: #254159;
-
 }
 
 nav ul li a:hover{
