@@ -1,0 +1,196 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    margin: 0px;
+    padding: 0px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+#container-principal {
+    width: auto 0;
+}
+
+#cabecalho {
+    border-bottom: 1px solid #254159;
+}
+
+.cabecalho {
+    padding: 20px;
+}
+
+
+#corpo {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.menu{
+    display: block;
+    float: left;
+    width: 23%;
+    padding: 10px 20px 20px 20px;
+}
+
+.corpo-texto{
+    display: block;
+    float: left;
+    width: 69%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#formulario{
+    display: block;
+    float: left;
+    margin-left: 24%;
+}
+
+.cognito{
+    height: 400px;
+    width: auto 0;
+}
+
+html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal {
+    display: none;
+}
+
+#rodape {
+    clear: both;
+    height: 100px;
+    background-color: #254159;
+}
+
+.corpo-texto img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2.6rem;
+    color: #254159;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 2rem;
+    color: #385874;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 1.4em;
+    color: #454545;
+    line-height: 1.4em;
+    padding: 5px;
+}
+
+ul li{
+    background-color: #ccc;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    margin: 5px;
+    line-height: 20px;
+    align-items: center;
+}
+
+nav ul li{
+    background-color: #efefef;
+}
+
+nav ul li:hover{
+    background-color: #ccc;
+}
+
+nav ul li a{
+    font-size: 1.4rem;
+    margin: 15px;
+    color: #254159;
+
+}
+
+nav ul li a:hover{
+    color: #385874;
+}
+
+footer {
+    background-color: #254159;  
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+    padding: 30px 0px 0px 20px;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+@media(max-width:425px){
+
+    .menu, .corpo-texto{
+    width: 90%;
+}
+.corpo-texto{
+    padding: 20px;
+}
+
+#formulario{
+    margin: 20px;
+}
+
+nav ul li {
+    text-align: center;
+}
+}
+
+@media (max-width: 810px){
+    .menu, .corpo-texto{
+        width: 90%;
+    }
+    .corpo-texto{
+        padding: 20px;
+    }
+    
+    #formulario{
+        margin: 20px;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+}
